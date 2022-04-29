@@ -1,0 +1,191 @@
+
+
+
+.aboutme-page{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    
+}
+.aboutme{
+    color: white;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutme1{
+    color: white;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.span-me{
+    background-image: linear-gradient(90deg,violet,#DE3163);
+    background-clip: text;
+    color:transparent;
+}
+.para{
+    color: white;
+    align-self: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.twospan{
+    margin-bottom: 5px;
+}
+
+.title{
+    color: grey;
+    font-size: 16px;
+    
+}
+.description{
+    color: #ffffff;
+    font-size: 16px;
+
+}
+.info{
+    color: grey;
+}
+
+.info1{
+    color: grey;
+    margin-top: 10px;
+}
+
+.wrapper {
+    border: 3px solid blue;
+  }
+  
+  .container {
+    background-color: pink;
+  }
+  
+  .barCompleted {
+    background-color: lightblue;
+    width: 80%;
+  }
+  
+  .label {
+    font-size: 20px;
+    color: green;
+  }
+  .skills-container{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-top: 20px;
+  }
+  .skills-text{
+      color: white;
+  }
+  .show-container{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 10px;
+      width: 98%;
+      align-self: center;
+      border: solid 1px white;
+      border-radius: 6px;
+      outline: none;
+      margin-top: 5px;
+   
+}
+.inner-container{
+    height:7.8px;
+    width: 85%;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 4px;
+}
+.inner-container1{
+    height:7.8px;
+    width: 90%;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 4px;
+}
+.inner-container2{
+    height:7.8px;
+    width: 80%;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 4px;
+}
+.inner-container3{
+    height:7.8px;
+    width: 88%;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 4px;
+}
+.inner-container5{
+    height:7.5px;
+    width: 95%;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 4px;
+}
+
+.education-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+}
+
+.color-bar{
+    height:100px;
+    width:6px;
+    background-image: linear-gradient(to bottom,violet,#DE3163);
+    margin-right: 10px;
+}
+
+.college-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.grey{
+    color:grey;
+    font-size: 20px;
+}
+.white{
+    color:white;
+    font-size: 16px;
+}
+
+.internship-card{
+    height:100px;
+    width: 90%;
+    background-image: linear-gradient(to right,#f588d8, #c0a3e5,white);
+    align-self: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+   
+}
+
+
+
+  .white1{
+      color: white;
+      font-weight: bold;
+  }

@@ -1,0 +1,64 @@
+.contact-container{
+    min-height: 60vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -5px;
+    background-color: black;
+    padding: 10px;
+}
+.icon-contact{
+    font-size: 45px;
+    color:white;
+    margin-right: 20px;
+}
+.mail-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.mail-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.mailme{
+    color: grey;
+    font-size: 16px;
+}
+.num{
+    color:white;
+    font-size: 16px;
+}
+.inputElement{
+    width: 90%;
+    height:40px;
+    background-color: transparent;
+    border: 1px white solid;
+    outline: none;
+    color:white;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.submitButton{
+    height: 40px;
+    width: 160px;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    margin-top: 5px;
+   background-image: linear-gradient(to right,#f588d8, #c0a3e5);
+   color: white;
+    
+
+}

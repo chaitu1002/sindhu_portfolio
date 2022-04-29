@@ -1,0 +1,51 @@
+.home-container{
+    background-image: url("https://res.cloudinary.com/chaitu1002/image/upload/v1651129786/WhatsApp_Image_2022-04-28_at_12.39.26_PM_yi16te.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.hello{
+    color:white;
+}
+.home-name{
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg,#2B2F6C, violet, #DE3163);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:rgba(255,255,255,0);
+
+}
+
+@keyframes animate{
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position: 500%;
+    }
+}
+
+
+
+.home-text{
+    height:250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     align-items: flex-start;
+    padding: 10px;
+}
+.titlehome{
+    font-size: 18px;
+    color:grey;
+    margin-bottom: 30px;
+}
+.my-name{
+    color:white;
+}
